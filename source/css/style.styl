@@ -3,7 +3,6 @@
 @import "_util"
 @import "_mixins"
 @import "_extend"
-@import "_fonts"
 
 global-reset()
 
@@ -137,9 +136,9 @@ code
 .highlight
   overflow-x: auto
   margin: 1rem 0
-  padding: 10px 15px
+  padding: 0 5px
   border-radius: 4px
-  background: $color-background-code
+  // background: $color-background-code
   font-family: $font-family-mono
   // color: $color-accent-3
   -webkit-border-radius: 4px
@@ -180,3 +179,14 @@ code
 
   .line
     height: 22px
+
+.fa
+  &.fa-angle-right, &.fa-angle-left
+    width: 10px
+    height: 10px
+    display: inline-block
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-image:  url("data:image/svg+xml;utf-8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDI4NC45MzUgMjg0LjkzNiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjg0LjkzNSAyODQuOTM2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTIyMi43MDEsMTM1LjlMODkuNjUyLDIuODU3Qzg3Ljc0OCwwLjk1NSw4NS41NTcsMCw4My4wODQsMGMtMi40NzQsMC00LjY2NCwwLjk1NS02LjU2NywyLjg1N0w2Mi4yNDQsMTcuMTMzICAgYy0xLjkwNiwxLjkwMy0yLjg1NSw0LjA4OS0yLjg1NSw2LjU2N2MwLDIuNDc4LDAuOTQ5LDQuNjY0LDIuODU1LDYuNTY3bDExMi4yMDQsMTEyLjIwNEw2Mi4yNDQsMjU0LjY3NyAgIGMtMS45MDYsMS45MDMtMi44NTUsNC4wOTMtMi44NTUsNi41NjRjMCwyLjQ3NywwLjk0OSw0LjY2NywyLjg1NSw2LjU3bDE0LjI3NCwxNC4yNzFjMS45MDMsMS45MDUsNC4wOTMsMi44NTQsNi41NjcsMi44NTQgICBjMi40NzMsMCw0LjY2My0wLjk1MSw2LjU2Ny0yLjg1NGwxMzMuMDQyLTEzMy4wNDRjMS45MDItMS45MDIsMi44NTQtNC4wOTMsMi44NTQtNi41NjdTMjI0LjYwMywxMzcuODA3LDIyMi43MDEsMTM1Ljl6IiBmaWxsPSIjMDAwMDAwIi8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==")
+  &.fa-angle-left
+    transform: rotate(180deg)
