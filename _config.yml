@@ -13,8 +13,8 @@ projects_url: https://github.com/joaner/blog
 # languages/*.yml
 nav:
   Home: /
+  Archives: /archives/
   Github: https://github.com/joaner
-  Theme: https://github.com/joaner/hexo-theme-cactus
 
 
 # Links to your social media accounts.
