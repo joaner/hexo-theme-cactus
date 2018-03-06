@@ -14,8 +14,8 @@ projects_url: https://github.com/joaner/blog
 nav:
   Home: /
   Archives: /archives/
+  Search: /search/
   Github: https://github.com/joaner
-
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names

@@ -1,5 +1,6 @@
 <!-- search -->
 <% if (config.search && page.search){ %>
+  <%- js('js/zepto.min.js') %>
   <%- js('js/search.js') %>
   <script type="text/javascript">
     var inputArea = document.querySelector("#search-input");
