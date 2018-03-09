@@ -42,7 +42,7 @@
     </script>
 <% } %>
 <!-- Disqus Comments -->
-<% if (theme.disqus.enabled && theme.disqus.shortname){ %>
+<% if (is_post() && theme.disqus.enabled && theme.disqus.shortname){ %>
     <script type="text/javascript">
         var disqus_shortname = '<%= theme.disqus.shortname %>';
 
